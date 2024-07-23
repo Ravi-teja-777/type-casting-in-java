@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Practice{
+    
+    static void typecasting(){
+        Scanner x = new Scanner(System.in);
+        System.out.print("Enter total score : ");
+        int a = x.nextInt();
+        System.out.print("Enter your score : ");
+        int b = x.nextInt();
+        double c = (double) b/a *100;
+        System.out.println("The percentage you got : "+c);
+        
+    }
+    public static void main(String args[]){
+        
+        typecasting();
+        
+    }
+ 
+    
+}
